@@ -1,0 +1,25 @@
+/* section {
+  background: #ff1a68;
+} */
+
+/* 'Global' font family. Using it in the body vs a global style for performance */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+  background: #ff1a68;
+}
+
+/* 
+ * Descendant combinator. Read it as apply this style
+ * to any h1 descendant of the product-overview element.
+*/
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
